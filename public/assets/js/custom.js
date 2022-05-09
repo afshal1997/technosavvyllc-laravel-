@@ -1,4 +1,5 @@
 window.$ = jQuery.noConflict();
+
 function OptanonWrapper() { }
 $(document).ready(function () {
     AOS.init({
@@ -266,10 +267,6 @@ jQuery('.digital-portfolio-sec .nav-tabs>li>a').click(function () {
         jQuery('div.tab-pane-tn:not(.active-tn)').css('position', 'absolute;');
         jQuery('div.tab-pane-tn.active-tn').css('opacity', '1');
     }, 500);
-});
-
-jQuery(window).on('load', function () {
-    jQuery('#preloader').fadeOut();
 });
 
 $(document).ready(function () {

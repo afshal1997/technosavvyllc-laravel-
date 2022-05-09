@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php
+@php
 
 $base_url = $_SERVER['HTTP_HOST'];
 $self = $_SERVER['PHP_SELF'];
@@ -11,7 +11,7 @@ $arr2 = explode(".", $with_ext);
 $page = $arr2['0'];
 $port_page = $arr2['0'];
 
-?>
+@endphp
 
 <head>
     <meta charset="utf-8">
@@ -26,7 +26,7 @@ $port_page = $arr2['0'];
     <meta name="author" Content="Techno Savvy LLC" />
     <meta name="template" content="content-page" />
 
-    <title>Techno Savvy | Providing Sound Successful Solutions to All</title>
+    <title> @yield('title')</title>
     
     @include('front.layouts.css')
 </head>

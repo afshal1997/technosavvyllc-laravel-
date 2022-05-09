@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Techno Savvy | Providing Sound Successful Solutions to All</title>
+    
     <meta charset="UTF-8">
     <meta name="keywords" content="Digital Marketing, Web Development, App Development, Brand And Creative, Animations, Social Media">
     <meta name="description" content="Dignify & digitalize the countenance of your inestimable business by perpetuating its digital trail, engraving its achievements, and augmenting your ROI by choosing the comprehensive Government affiliated solution.">

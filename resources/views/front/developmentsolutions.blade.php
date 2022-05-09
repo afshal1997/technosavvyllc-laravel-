@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title') Home @endsection
 @section('content')
-<!-- Inner Page Banner Start-->
+
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/development/development-bg.jpg');">
     <div class="container">
@@ -19,11 +19,6 @@
     </div>
   </div>
 </div>
-<!-- Inner Page Banner End-->
-
-
-
-<!-- Creative Process Start -->
 <div class="section creative-process pt-120 pb-120">
   <div class="container">
     <div class="row">
@@ -37,9 +32,6 @@
       </div>
     </div>
     <div class="crative-process">
-      <!-- 1 -->
-
-      <!-- 2 -->
       <div class="row creative-two dev-two hidden-xs hidden-sm">
         <div class="col-md-12">
           <div class="img-process">
@@ -47,27 +39,6 @@
           </div>
         </div>
       </div>
-      <!-- 3 -->
-      <!-- <div class="row creative-three dev-three hidden-xs hidden-sm">
-        <div class="col-md-2">
-          <h4>Plan</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and </p>
-        </div>
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-2">
-          <h4>Develop</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and  </p>
-        </div>
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-2">
-          <h4>Release</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and  </p>
-        </div>
-        <div class="col-md-2"></div>
-      </div> -->
-      <!-- 4 -->
       <div class="row creative-4 dev-four hidden-lg hidden-md">
         <div class="col-sm-6 col-xs-12">
           <img src="assets/images/development/1.png" alt="alt-image" />
@@ -104,12 +75,8 @@
     </div>
   </div>
 </div>
-<!-- Creative Process End -->
-
-<!-- Paragon section Start-->
 <div class="paragon-sec pb-100">
   <div class="container paragon-main">
-    <!-- 1 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -129,7 +96,6 @@
         <img src="./assets/images/development/web.png" alt="web" />
       </div>
     </div>
-    <!-- 2 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
         <img src="./assets/images/development/app.png" alt="app" />
@@ -149,7 +115,6 @@
         </div>
       </div>
     </div>
-    <!-- 3 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -171,13 +136,9 @@
     </div>
   </div>
 </div>
-<!-- Paragon section End-->
-
-<!-- Portfolio Section Start -->
 <div class="digital-portfolio-sec tab-sec-port pb-100">
   <div class="container">
     <h2 class="digital-title"><span>Digital Marketing</span>Portfolio</h2>
-    <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
       <li class="active">
         <a href="javascript:void(0)" data-id="web" role="tab" data-toggle="tab">
@@ -190,12 +151,10 @@
         </a>
       </li>
     </ul>
-    <!-- Tab panes -->
     <div class="tab-content">
       <div class="tab-pane-tn active-tn" id="web">
         <div class="row-digital-portfolio">
           <div class="digital-port-main">
-            <!-- 2 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -214,7 +173,6 @@
                 </div>
               </div>
             </div>
-            <!-- 1 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -233,7 +191,6 @@
                 </div>
               </div>
             </div>
-            <!-- 3 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -252,7 +209,6 @@
                 </div>
               </div>
             </div>
-            <!-- 4 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -277,7 +233,6 @@
       <div class="tab-pane-tn" id="app">
         <div class="row-digital-portfolio">
           <div class="digital-port-main digital-port-main1">
-            <!-- 1 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -296,7 +251,6 @@
                 </div>
               </div>
             </div>
-            <!-- 2 -->
             <div class="digital-port-repeater">
               <div class="row">
                 <div class="port-dig-img col-md-12">
@@ -321,9 +275,7 @@
     </div>
   </div>
 </div>
-<!-- Portfolio Section End -->
 
-<!-- Get In Touch -->
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/development/develop-get-touch.jpg');">
   <section id="contact_us" class="scroll-section">
     @component('front.components.contact_us')
@@ -360,6 +312,4 @@
     </div>
   </section>
 </div>
-
-<!-- END section -->
 @endsection

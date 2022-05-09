@@ -72,12 +72,11 @@
     </div>
   </div>
 </div>
-<!-- Creative Process End -->
 
-<!-- Paragon section Start-->
+
 <div class="paragon-sec pb-100">
   <div class="container paragon-main">
-    <!-- 1 -->
+
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -97,7 +96,7 @@
         <img src="./assets/images/creative/ui-img.png">
       </div>
     </div>
-    <!-- 2 -->
+
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
         <img src="./assets/images/creative/branding-img.png">
@@ -117,7 +116,7 @@
         </div>
       </div>
     </div>
-    <!-- 3 -->
+
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -139,9 +138,6 @@
     </div>
   </div>
 </div>
-<!-- Paragon section End-->
-
-<!-- Portfolio Section Start -->
 
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7" style="background-color: #fafafa;">
   <section id="our_portfolio" class="scroll-section portfoilo_row">
@@ -151,7 +147,7 @@
           <h2 class="text-uppercase">OUR PORTFOLIO</h2>
           <p class="">We are proud of what we create and deliver to our valued clients in all parts of the world.</p>
         </div>
-      </div><!-- ROW -->
+      </div>
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-4 sec_col_inner">
           <a href="web-development-portfolio">
@@ -209,7 +205,7 @@
   </section>
 </div>
 
-<!-- Get In Touch -->
+
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/creative-get-in-touch.jpg');">
   <section id="contact_us" class="scroll-section">
     @component('front.components.contact_us')
@@ -246,6 +242,4 @@
     </div>
   </section>
 </div>
-
-<!-- END section -->
 @endsection

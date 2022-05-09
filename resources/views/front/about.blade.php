@@ -2,7 +2,6 @@
 @section('title') Home @endsection
 @section('content')
 
-<!-- Inner Page Banner Start-->
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/about/about-bg.jpg');">
     <div class="container">
@@ -22,9 +21,8 @@
     </div>
   </div>
 </div>
-<!-- Inner Page Banner End-->
 
-<!-- Story Section Start -->
+
 <div class="section story-sec pt-120 pb-120">
   <div class="container">
     <div class="row">
@@ -39,7 +37,7 @@
       </div>
     </div>
     <div class="story-main row">
-      <!-- 1 -->
+
       <div class="story-main-in">
         <div class="col-lg-6 col-xs-12 col-sm-6">
           <div class="date-story">
@@ -53,7 +51,7 @@
           </div>
         </div>
       </div>
-      <!-- 2 -->
+
       <div class="story-main-in">
         <div class="col-lg-6 col-xs-12 col-sm-6">
           <div class="text-story">
@@ -67,7 +65,7 @@
           </div>
         </div>
       </div>
-      <!-- 3 -->
+
       <div class="story-main-in">
         <div class="col-lg-6 col-xs-12 col-sm-6">
           <div class="date-story">
@@ -81,7 +79,7 @@
           </div>
         </div>
       </div>
-      <!-- 4 -->
+
       <div class="story-main-in">
         <div class="col-lg-6 col-xs-12 col-sm-6">
           <div class="text-story">
@@ -98,9 +96,7 @@
     </div>
   </div>
 </div>
-<!-- Story Section End -->
 
-<!-- Affiliation Section Start -->
 <div class="section affiliate-sec pt-100 pb-100 text-light" style="background-image: url(assets/images/about/affiliations-bg.jpg);">
   <div class="container">
     <div class="row">
@@ -139,9 +135,7 @@
     </div>
   </div>
 </div>
-<!-- Affiliation Section End -->
 
-<!-- Segment Section Start -->
 <div class="section segment-sec pt-120">
   <div class="container">
     <div class="row">
@@ -154,7 +148,7 @@
     </div>
   </div>
   <div class="segment-main">
-    <!-- 1 -->
+    
     <div class="row segment-repeater">
       <div class="col-lg-6 col-xs-12">
         <div class="img-segment">
@@ -170,7 +164,7 @@
         </div>
       </div>
     </div>
-    <!-- 2 -->
+    
     <div class="row segment-repeater">
       <div class="col-lg-6 col-xs-12">
         <div class="cont-segment">
@@ -186,7 +180,7 @@
         </div>
       </div>
     </div>
-    <!-- 3 -->
+    
     <div class="row segment-repeater">
       <div class="col-lg-6 col-xs-12">
         <div class="img-segment">
@@ -202,7 +196,7 @@
         </div>
       </div>
     </div>
-    <!-- 4 -->
+    
     <div class="row segment-repeater">
       <div class="col-lg-6 col-xs-12">
         <div class="cont-segment">
@@ -220,9 +214,6 @@
     </div>
   </div>
 </div>
-<!-- Segment Section End -->
-
-<!-- Portfolio Section Start -->
 
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7" style="background-color: #fafafa;">
   <section id="our_portfolio" class="scroll-section portfoilo_row">
@@ -328,5 +319,4 @@
   </section>
 </div>
 
-<!-- END section -->
 @endsection
