@@ -497,14 +497,15 @@ section#our_portfolio div.row .third_col_inner {
   padding-right: 7.5px;
 }
 .portfoilo_row .col-md-4 a span {
-  background-image: linear-gradient(0deg, #fff, transparent);
+  background-image: linear-gradient(0deg, #fff, transparent) !important;
+  background-repeat: no-repeat;
   font-size: 24px;
   font-weight: 600;
   color: #000;
   letter-spacing: 0.5px;
 }
 .portfoilo_row .col-md-4 a span::after {
-  background: url(../images/home/colored-overlay.png);
+  background: url(../images/home/colored-overlay.png) !important;
   background-size: cover;
   background-position: center;
   opacity: 1;
@@ -850,9 +851,7 @@ footer {
 nav.sticky-left-nav.top-menu.ok {
   display: none;
 }
-body.index:not(.fp-viewing-0) header nav .container.mt45 {
-  display: none;
-}
+
 div#footer_bot {
   background: #f1eff0;
 }
@@ -884,17 +883,17 @@ div.fp-slidesNav ul li a span {
   color: #202020;
 }
 .top-menu {
-  top: calc(50% + 2.848vw);
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-: translateY(-50%);
+  top: calc(50% + 2.848vw) !important;
+  transform: translateY(-50%) !important;
+  -webkit-transform: translateY(-50%) !important;
+  -moz-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  -o-: translateY(-50%) !important;
 }
 .stick-left-nav-ul {
-  padding-left: 1.212vw;
-  width: 5.758vw;
-  margin-bottom: 0.606vw;
+  padding-left: 1.212vw !important;
+  width: 5.758vw !important;
+  margin-bottom: 0.606vw !important;
 }
 .sticky-left-nav ul li {
   min-height: 4.848vw;
@@ -2738,7 +2737,6 @@ body.index a.btn.btn-shutter-more {
 }
 body.index .btn-shutter-more {
   border: 0.061vw solid #fff;
-  letter-spacing: 1.303vw;
 }
 body.index .with-sam-logo img {
   width: 17.576vw;
@@ -2892,14 +2890,7 @@ body.index .portfoilo_row p {
   margin-bottom: 0.606vw;
   font-size: 1.152vw;
 }
-body.index section#our_portfolio div.row .sec_col_inner {
-  padding-left: 7.303vw;
-  padding-right: 7.303vw;
-}
-body.index section#our_portfolio div.row a {
-  margin-bottom: 0.909vw;
-  height: 12.121vw;
-}
+
 body.index .portfoilo_row .col-md-4 a span {
   padding-bottom: 0.606vw;
   font-size: 1.455vw;

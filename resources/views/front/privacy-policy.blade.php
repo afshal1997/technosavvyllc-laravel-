@@ -1,4 +1,7 @@
-<?php include_once('header.php');?>
+@extends('front.layouts.app')
+@section('title') Home @endsection
+@section('content')
+
 <!-- Inner Page Banner Start-->
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/about/about-bg.jpg');">
@@ -186,7 +189,7 @@
             </div><!-- ROW -->
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-4 sec_col_inner">
-                    <a href="web-development-portfolio.php">
+                    <a href="web-development-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png"/>
@@ -195,7 +198,7 @@
                         </span>
                         <img src="./assets/images/home/port1.jpg">
                     </a>
-                    <a href="digital-marketing-portfolio.php">
+                    <a href="digital-marketing-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png"/>
@@ -206,7 +209,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
-                    <a href="app-development-portfolio.php">
+                    <a href="app-development-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png"/>
@@ -217,7 +220,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
-                    <a href="brand-creative-portfolio.php">
+                    <a href="brand-creative-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png"/>
@@ -225,7 +228,7 @@
                             </div>
                         </span>
                         <img src="./assets/images/home/port4.jpg"></a>
-                   <a href="animations-portfolio.php">
+                   <a href="animations-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png"/>
@@ -246,7 +249,7 @@
     <section id="contact_us" class="scroll-section">
         
          <?php
-                include "contact_us.php";
+                include "contact_us";
 
                 ?>
 
@@ -320,4 +323,4 @@
 </div>
 
   <!-- END section -->
-<?php include_once('footer.php');?>
+@endsection

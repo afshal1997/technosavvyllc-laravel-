@@ -13,8 +13,9 @@
                             <div class="row sam-logo-ban">
                                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 first_col" data-aos="">
                                     <h1 class="h2-heading white-color mb-xs-10"><strong>A scintillating retort to the digital question mark!</strong></h1>
-                                    <h3>Dignify & digitalize the countenance of your inestimable business by perpetuating its digital trail, engraving its achievements, and augmenting your ROI by choosing the comprehensive Government affiliated solution.</h3>
-                                    <a href="javascript:void(0)" class="btn btn-shutter-more text-uppercase">EXPLORE MORE</a>
+                                    <h3>
+                                        Dignify & digitalize the countenance of your inestimable business by perpetuating its digital trail, engraving its achievements, and augmenting your ROI by choosing the comprehensive Government affiliated solution.
+                                    </h3>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 with-sam-logo" data-aos="fade-up">
                                     <img src="./assets/images/home/sam-img.png">
@@ -71,7 +72,7 @@
                             </span>
                         </p>
                         <p class="mb20 mb-xs-10 mt50 mt-xs-0 animateThird">
-                            <a href="about.php" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
+                            <a href="about" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
                         </p>
                     </div>
                 </div>
@@ -93,7 +94,7 @@
                             </span>
                         </p>
                         <p class="mb20 mb-xs-10 mt50 mt-xs-0 animateThird">
-                            <a href="digital-marketing.php" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
+                            <a href="digital-marketing" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
@@ -123,7 +124,7 @@
                             </span>
                         </p>
                         <p class="mb20 mb-xs-10 mt50 mt-xs-0 animateThird">
-                            <a href="creative-services.php" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
+                            <a href="creative-services" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
                         </p>
                     </div>
                 </div>
@@ -148,7 +149,7 @@
                             </span>
                         </p>
                         <p class="mb20 mb-xs-10 mt50 mt-xs-0 animateThird">
-                            <a href="developmentsolutions.php" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
+                            <a href="developmentsolutions" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate image-div" data-aos="">
@@ -179,7 +180,7 @@
                             </span>
                         </p>
                         <p class="mb20 mb-xs-10 mt50 mt-xs-0 animateThird">
-                            <a href="enterprisesolutions.php" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
+                            <a href="enterprisesolutions" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600">Explore</a>
                         </p>
                     </div>
                 </div>
@@ -199,7 +200,7 @@
             </div><!-- ROW -->
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-4 sec_col_inner">
-                    <a href="web-development-portfolio.php">
+                    <a href="web-development-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png" />
@@ -208,7 +209,7 @@
                         </span>
                         <img src="./assets/images/home/port1.jpg">
                     </a>
-                    <a href="digital-marketing-portfolio.php">
+                    <a href="digital-marketing-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png" />
@@ -219,7 +220,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
-                    <a href="app-development-portfolio.php">
+                    <a href="app-development-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png" />
@@ -230,7 +231,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
-                    <a href="brand-creative-portfolio.php">
+                    <a href="brand-creative-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png" />
@@ -238,7 +239,7 @@
                             </div>
                         </span>
                         <img src="./assets/images/home/port4.jpg"></a>
-                    <a href="animations-portfolio.php">
+                    <a href="animations-portfolio">
                         <span>
                             <div class="plus-img">
                                 <img src="./assets/images/home/plus.png" />

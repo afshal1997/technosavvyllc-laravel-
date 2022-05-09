@@ -1,1 +1,2 @@
-<?php include_once('portfolio-main.php');?>
+@component('front.components.portfolio-main')
+@endcomponent

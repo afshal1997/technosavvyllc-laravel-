@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('home', 'front.home')->name('home');
+Route::view('/', 'front.home')->name('home');
 Route::view('about', 'front.about')->name('about');
 Route::view('app-development-portfolio', 'front.app-development-portfolio')->name('app-development-portfolio');
 Route::view('brand-creative-portfolio', 'front.brand-creative-portfolio')->name('brand-creative-portfolio');

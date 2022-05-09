@@ -1,4 +1,7 @@
-<?php include_once('commonFiles/header.php'); ?>
+@extends('front.layouts.app')
+@section('title') Home @endsection
+@section('content')
+
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/creative/creative-bg.jpg');">
     <div class="container">
@@ -37,7 +40,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="row creative-4 hidden-lg hidden-md">
         <div class="col-sm-6 col-xs-12">
           <img src="assets/images/creative/1.png" />
@@ -209,12 +212,8 @@
 <!-- Get In Touch -->
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/creative-get-in-touch.jpg');">
   <section id="contact_us" class="scroll-section">
-    <?php
-    include "contact_us.php";
-
-    ?>
-
-
+    @component('front.components.contact_us')
+    @endcomponent
     <div class="bottom-row-contact" style="display: none;">
       <article class="container">
         <div class="col-md-12 col-sm-12 bottom_contact" data-aos="">
@@ -249,4 +248,4 @@
 </div>
 
 <!-- END section -->
-<?php include_once('commonFiles/footer.php'); ?>
+@endsection

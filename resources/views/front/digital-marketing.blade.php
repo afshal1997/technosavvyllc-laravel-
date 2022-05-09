@@ -1,4 +1,6 @@
-<?php include_once('commonFiles/header.php'); ?>
+@extends('front.layouts.app')
+@section('title') Home @endsection
+@section('content')
 <!-- Inner Page Banner Start-->
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/digital/digital-bg.jpg');">
@@ -6,7 +8,9 @@
       <div class="row slider-text align-items-center justify-content-center">
         <div class="col-lg-6 col-sm-12 col-xs-12">
           <h2 class="mb-4">Digital Marketing</h2>
-          <p>Creating result-oriented experiences for brands to elevate their passive growth in increasing industrial profitability, encounter ground-breaking challenges, and embark manifesting digital footprints. </p>
+          <p>
+            Creating result-oriented experiences for brands to elevate their passive growth in increasing industrial profitability, encounter ground-breaking challenges, and embark manifesting digital footprints.
+          </p>
         </div>
         <div class="col-lg-6 col-sm-12 col-xs-12">
           <div class="img-in-ban">
@@ -222,10 +226,8 @@
 <!-- Get In Touch -->
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/digital-get-in-touch.jpg');">
   <section id="contact_us" class="scroll-section">
-    <?php
-    include "contact_us.php";
-
-    ?>
+    @component('front.components.contact_us')
+    @endcomponent
     <div class="bottom-row-contact" style="display: none;">
       <article class="container">
         <div class="col-md-12 col-sm-12 bottom_contact" data-aos="">
@@ -260,4 +262,4 @@
 </div>
 
 <!-- END section -->
-<?php include_once('commonFiles/footer.php'); ?>
+@endsection
