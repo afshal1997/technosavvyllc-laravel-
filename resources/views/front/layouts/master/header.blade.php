@@ -85,7 +85,7 @@
                 <div class="xf-content-height">
                     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
                         <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12">
-                            <link href="content/dam/web/burger-menu/en/css/burger-menu.css" rel="stylesheet">
+                            <link href="{{ asset('assets/content/') }}/dam/web/burger-menu/en/css/burger-menu.css" rel="stylesheet">
                             <div class="burger-search-wrapper navbar-fixed-top">
                                 <div class="container">
                                     <div class="hamburger-menu">
@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <script type="text/javascript" src="content/dam/web/burger-menu/en/js/burger-menu.js"></script>
+                            <script type="text/javascript" src="{{ asset('assets/content/') }}/dam/web/burger-menu/en/js/burger-menu.js"></script>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
-@extends('front.layouts.app')
-@section('title') Home @endsection
+@extends('front.layouts.master.app')
+@section('title') Digital Marketing @endsection
 @section('content')
-<!-- Inner Page Banner Start-->
+
 <div class="inner-page">
   <div class="slider-item" style="background-image: url('assets/images/digital/digital-bg.jpg');">
     <div class="container">
@@ -21,15 +21,10 @@
     </div>
   </div>
 </div>
-<!-- Inner Page Banner End-->
 
-
-
-<!-- Story Section Start -->
 <div class="section digitalstory-sec pt-120 pb-120" style="background-image: url('assets/images/digital/digital-sec1-bg.png');">
   <div class="container">
     <div class="digitalstory-main row">
-      <!-- 1 -->
       <div class="digitalstory-main-in">
         <div class="col-lg-6 col-xs-12">
           <div class="text-digitalstory-one">
@@ -65,12 +60,9 @@
     </div>
   </div>
 </div>
-<!-- Story Section End -->
 
-<!-- Paragon section Start-->
 <div class="paragon-sec pb-100 pt-100">
   <div class="container paragon-main">
-    <!-- 1 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -91,7 +83,6 @@
         <img alt="alt-text" src="./assets/images/digital/social-img.png">
       </div>
     </div>
-    <!-- 2 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
         <img alt="alt-text" src="./assets/images/digital/seo-img.png">
@@ -111,7 +102,6 @@
         </div>
       </div>
     </div>
-    <!-- 3 -->
     <div class="row repeatr-paragon">
       <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
         <div>
@@ -133,15 +123,12 @@
     </div>
   </div>
 </div>
-<!-- Paragon section End-->
 
-<!-- Portfolio Section Start -->
 <div class="digital-portfolio-sec pb-100">
   <div class="container">
     <h2 class="digital-title"><span>Digital Marketing</span>Portfolio</h2>
     <div class="row-digital-portfolio">
       <div class="digital-port-main">
-        <!-- 2 -->
         <div class="digital-port-repeater">
           <div class="row">
             <div class="port-dig-img col-md-12">
@@ -160,7 +147,6 @@
             </div>
           </div>
         </div>
-        <!-- 1 -->
         <div class="digital-port-repeater">
           <div class="row">
             <div class="port-dig-img col-md-12">
@@ -179,7 +165,6 @@
             </div>
           </div>
         </div>
-        <!-- 3 -->
         <div class="digital-port-repeater">
           <div class="row">
             <div class="port-dig-img col-md-12">
@@ -198,7 +183,6 @@
             </div>
           </div>
         </div>
-        <!-- 4 -->
         <div class="digital-port-repeater">
           <div class="row">
             <div class="port-dig-img col-md-12">
@@ -221,9 +205,8 @@
     </div>
   </div>
 </div>
-<!-- Portfolio Section End -->
 
-<!-- Get In Touch -->
+
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/digital-get-in-touch.jpg');">
   <section id="contact_us" class="scroll-section">
     @component('front.components.contact_us')
@@ -261,5 +244,4 @@
   </section>
 </div>
 
-<!-- END section -->
 @endsection

@@ -1,14 +1,13 @@
-@extends('front.layouts.app')
+@extends('front.layouts.master.app')
 @section('title') Home @endsection
 @section('content')
-<!-- Inner Page Banner Start-->
+
 <div class="inner-page">
     <div class="slider-item" style="background-image: url('assets/images/about/about-bg.jpg');">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-lg-6 col-sm-12 col-xs-12">
                     <h2 class="mb-4">Refund Policy</h2>
-                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>-->
                 </div>
                 <div class="col-lg-6 col-sm-12 col-xs-12">
                     <div class="img-in-ban">
@@ -19,9 +18,7 @@
         </div>
     </div>
 </div>
-<!-- Inner Page Banner End-->
 
-<!-- Story Section Start -->
 <div class="section story-sec pt-120 pb-120 privacy-policy-main">
     <div class="container">
         <div class="row">
@@ -172,10 +169,6 @@
         </div>
     </div>
 </div>
-<!-- Story Section End -->
-
-
-<!-- Portfolio Section Start -->
 
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7" style="background-color: #fafafa;">
     <section id="our_portfolio" class="scroll-section portfoilo_row">
@@ -246,47 +239,10 @@
 <!-- Get In Touch -->
 <div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/about-get-in-touch.jpg');">
     <section id="contact_us" class="scroll-section">
-        <?php
-        include "contact_us";
 
-        ?>
+        @component('front.components.contact_us')
+        @endcomponent
 
-        <!--<article class="container">-->
-        <!--    <div class="row_def">-->
-        <!--        <div class="col-md-6 col-sm-12 contact_form-img image-div" data-aos="">-->
-        <!--            <div class="img-div">-->
-        <!--                <img src="./assets/images/home/touch-img1.png" class="hidden-xs">-->
-        <!--                <img src="./assets/images/home/touch-img11.png" class="visible-xs">-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-md-6 col-sm-12 contact_form full_width_100 cont-div" data-aos="">-->
-        <!--            <div class="inner_contact_row">-->
-        <!--                <h4>Get in Touch!</h4>-->
-        <!--                <p>We create experiences that brands live by. Get in Touch for the best services quickly.</p>-->
-        <!--                <form class="contact mb20 mb-xs-10 mt50 mt-xs-0 " action="#" method="post">-->
-        <!--                    <div class="col-sm-6">-->
-        <!--                        <input type="text" name="" placeholder="First Name *">-->
-        <!--                    </div>-->
-        <!--                    <div class="col-sm-6">-->
-        <!--                        <input type="email" name="" placeholder="Email Address *">-->
-        <!--                    </div>-->
-        <!--                    <div class="col-sm-6">-->
-        <!--                        <input type="text" name="" placeholder="Phone Number *">-->
-        <!--                    </div>-->
-        <!--                    <div class="col-sm-6">-->
-        <!--                        <input type="text" name="" placeholder="Subject *">-->
-        <!--                    </div>-->
-        <!--                    <div class="col-sm-12">-->
-        <!--                        <textarea  name="" placeholder="Enter Your Message Here ..."></textarea> -->
-        <!--                    </div> -->
-        <!--                    <div class="col-sm-12">-->
-        <!--                        <input type="submit" name="" value="Submit Now">  -->
-        <!--                    </div>-->
-        <!--                </form>-->
-        <!--            </div>-->
-        <!--        </div> <!-- contact_form -->-->
-        <!--    </div>-->
-        <!--</article>-->
         <div class="bottom-row-contact" style="display: none;">
             <article class="container">
                 <div class="col-md-12 col-sm-12 bottom_contact" data-aos="">
@@ -320,5 +276,4 @@
     </section>
 </div>
 
-<!-- END section -->
 @endsection

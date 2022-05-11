@@ -104,7 +104,7 @@
 
     </footer>
     <a href="javascript:void(0)" class="scroll-up">
-        <img src="{{ asset('content/') }}/dam/web/en/global-resource/background-image/arrow_up.png" alt="Arrow up" class="img-responsive" />
+        <img src="{{ asset('assets/content/') }}/dam/web/en/global-resource/background-image/arrow_up.png" alt="Arrow up" class="img-responsive" />
     </a>
 </div>
 </div>

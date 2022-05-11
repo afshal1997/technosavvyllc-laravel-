@@ -1,8 +1,5 @@
 <body class="portfolio-body portfolio-main">
-	<div id="preloader">
-		<img src="./assets/images/loader/techno-savvy-Loading.gif" />
-	</div>
-	
+	<div id="preloader"><img src="./assets/images/loader/techno-savvy-Loading.gif" /></div>
 	<div id="container" class="portfolio-page-tn">
 		<header>
 			<div class="logo-box">
@@ -30,25 +27,19 @@
 						</a>
 					</li>
 					<li>
-						<a class="tab-link-ntn 
-							<?php if ($port_page == 'web-development-portfolio') {
-								echo 'active';
-							} ?>" href="javascript:void(0)" data-id="tab-ntn-2">Web Development
-						</a>
+						<a class="tab-link-ntn <?php if ($port_page == 'web-development-portfolio') {
+													echo 'active';
+												} ?>" href="javascript:void(0)" data-id="tab-ntn-2">Web Development</a>
 					</li>
 					<li>
-						<a class="tab-link-ntn 
-							<?php if ($port_page == 'app-development-portfolio') {
-								echo 'active';
-							} ?>" href="javascript:void(0)" data-id="tab-ntn-3">App Development
-						</a>
+						<a class="tab-link-ntn <?php if ($port_page == 'app-development-portfolio') {
+													echo 'active';
+												} ?>" href="javascript:void(0)" data-id="tab-ntn-3">App Development</a>
 					</li>
 					<li>
-						<a class="tab-link-ntn 
-							<?php if ($port_page == 'brand-creative-portfolio') {
-								echo 'active';
-							} ?>" href="javascript:void(0)" data-id="tab-ntn-4">Brand And Creative
-						</a>
+						<a class="tab-link-ntn <?php if ($port_page == 'brand-creative-portfolio') {
+													echo 'active';
+												} ?>" href="javascript:void(0)" data-id="tab-ntn-4">Brand And Creative</a>
 					</li>
 				</ul>
 			</div>
@@ -58,5 +49,4 @@
 					<li><a href="https://www.instagram.com/technosavvyllc"><i class="fa fa-instagram"></i></a></li>
 				</ul>
 			</div>
-
 		</header>

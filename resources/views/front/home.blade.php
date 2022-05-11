@@ -1,4 +1,4 @@
-@extends('front.layouts.app')
+@extends('front.layouts.master.app')
 @section('title') Home @endsection
 @section('content')
 

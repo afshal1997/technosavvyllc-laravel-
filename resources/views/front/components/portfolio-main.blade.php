@@ -1,6 +1,7 @@
 @extends('front.layouts.portfolios.app')
-@section('title') Portfolio @endsection
+@section('title') About Us @endsection
 @section('content')
+
 
 <div id="content">
 	<div class="inner-content">
@@ -1099,8 +1100,10 @@
 		</div>
 	</div>
 </div>
-</div>
 
+<div class="preloader"></div>
+
+<!-- App Popup 1 -->
 <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1132,6 +1135,7 @@
 	</div>
 </div>
 
+<!-- App Popup 2 -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1163,6 +1167,7 @@
 	</div>
 </div>
 
+<!-- Digital Marketing Popup 1 -->
 <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1193,7 +1198,7 @@
 		</div>
 	</div>
 </div>
-
+<!-- Digital Marketing Popup 2 -->
 <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1224,7 +1229,7 @@
 		</div>
 	</div>
 </div>
-
+<!-- Digital Marketing Popup 3 -->
 <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1255,7 +1260,7 @@
 		</div>
 	</div>
 </div>
-
+<!-- Digital Marketing Popup 4 -->
 <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-content-portfolio">
@@ -1286,4 +1291,5 @@
 		</div>
 	</div>
 </div>
+
 @endsection

@@ -1,5 +1,5 @@
-@extends('front.layouts.app')
-@section('title') Home @endsection
+@extends('front.layouts.master.app')
+@section('title') Development Solutions @endsection
 @section('content')
 
 <div class="inner-page">

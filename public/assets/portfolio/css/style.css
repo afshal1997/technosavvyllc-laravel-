@@ -3058,7 +3058,7 @@ ul.depth li:before {
 }
 /*vw*/
 .portfolio-page-tn header {
-    background: url(./../../assets/images/portfolio/port-menu.jpg);
+    background: url('../../images/portfolio/port-menu.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 50vh;

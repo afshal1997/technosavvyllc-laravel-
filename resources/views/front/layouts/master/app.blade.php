@@ -28,16 +28,16 @@ $port_page = $arr2['0'];
 
     <title> @yield('title')</title>
     
-    @include('front.layouts.css')
+    @include('front.layouts.master.css')
 </head>
 
 
 <body class="page basepage basicpage <?php echo $page ?>">
-    @include('front.layouts.header')
+    @include('front.layouts.master.header')
     @yield('content')
-    @include('front.layouts.footer')
+    @include('front.layouts.master.footer')
 
-    @include('front.layouts.js')
+    @include('front.layouts.master.js')
 </body>
 
 </html>

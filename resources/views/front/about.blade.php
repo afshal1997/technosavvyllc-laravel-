@@ -1,5 +1,5 @@
-@extends('front.layouts.app')
-@section('title') Home @endsection
+@extends('front.layouts.master.app')
+@section('title') About Us @endsection
 @section('content')
 
 <div class="inner-page">
@@ -21,7 +21,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="section story-sec pt-120 pb-120">
   <div class="container">
