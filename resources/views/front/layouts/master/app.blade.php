@@ -30,9 +30,13 @@ $port_page = $arr2['0'];
     
     @include('front.layouts.master.css')
 </head>
-
-
+@if(request()->route()->getName() == 'home')
 <body class="page basepage basicpage <?php echo $page ?>">
+
+@else
+<body class="page basepage basicpage">
+@endif
+
     @include('front.layouts.master.header')
     @yield('content')
     @include('front.layouts.master.footer')

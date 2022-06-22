@@ -1,6 +1,6 @@
 window.$ = jQuery.noConflict();
 
-function OptanonWrapper() { }
+function OptanonWrapper() {}
 $(document).ready(function () {
     AOS.init({
         duration: 1200,
@@ -137,26 +137,26 @@ jQuery(document).ready(function ($) {
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
             }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        }
         ]
     });
     $('.affiliate-logo-main').slick({
@@ -166,26 +166,26 @@ jQuery(document).ready(function ($) {
         autoplay: false,
         autoplaySpeed: 2000,
         responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
         ]
     });
 });
@@ -200,28 +200,28 @@ var settings = {
     centerMode: true,
     loop: false,
     responsive: [{
-        breakpoint: 1024,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                centerMode: false,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                centerMode: false,
+                slidesToScroll: 1
+            }
         }
-    },
-    {
-        breakpoint: 600,
-        settings: {
-            slidesToShow: 1,
-            centerMode: false,
-            slidesToScroll: 1
-        }
-    },
-    {
-        breakpoint: 480,
-        settings: {
-            slidesToShow: 1,
-            centerMode: false,
-            slidesToScroll: 1
-        }
-    }
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"
         // instead of a settings object

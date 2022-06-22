@@ -3,245 +3,210 @@
 @section('content')
 
 <div class="inner-page">
-  <div class="slider-item" style="background-image: url('assets/images/digital/digital-bg.jpg');">
-    <div class="container">
-      <div class="row slider-text align-items-center justify-content-center">
-        <div class="col-lg-6 col-sm-12 col-xs-12">
-          <h2 class="mb-4">Digital Marketing</h2>
-          <p>
-            Creating result-oriented experiences for brands to elevate their passive growth in increasing industrial profitability, encounter ground-breaking challenges, and embark manifesting digital footprints.
-          </p>
+    <div class="slider-item" style="background-image: url('assets/images/digital/hero-bg.png');">
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="mb-4">Digital Marketing</h2>
+                    <p>Creating Result-oriented Experiences For Brands To Elevate Their Passive Growth In Increasing Industrial Profitability, Encounter Ground-breaking Challenges, And Embark Manifesting Digital Footprints.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="img-in-ban innerHero">
+                        <img src="assets/images/digital/hero-banner.png">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 col-sm-12 col-xs-12">
-          <div class="img-in-ban">
-            <img alt="alt-text" src="assets/images/digital/didital-img.png">
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
+<div class="section creative-process writing-process process-bg pt-120 pb-120">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-div text-center">
+                    <h2>Digital <span class="digital-theme">Marketing</span></h2>
+                    <p>
+                    Techno Savvy is authorized to collaborate with county, high-profile, state, non-profits, and federal level government projects to expand its business reach in generating maximum revenue.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="crative-process"> 
+            <div class="row creative-two hidden-xs hidden-sm">
+                <div class="col-md-12">
+                    <div class="img-process">
+                        <img class="" src="assets/images/digital/process.png">
+                    </div>
+                </div>
+            </div>
 
-<div class="section digitalstory-sec pt-120 pb-120" style="background-image: url('assets/images/digital/digital-sec1-bg.png');">
-  <div class="container">
-    <div class="digitalstory-main row">
-      <div class="digitalstory-main-in">
-        <div class="col-lg-6 col-xs-12">
-          <div class="text-digitalstory-one">
-            <h4>Digital Marketing</h4>
-            <p>
-              Techno Savvy is authorized to collaborate with county, high-profile, state, non-profits, and federal level government projects to expand its business reach in generating maximum revenue.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-xs-12">
-          <div class="text-digitalstory blue-line">
-            <h4>- Brief</h4>
-            <span class="strong"></span>
-            <p>We rather listen than imposing our minds on our clients. You brief us on your prerequisites and expectations, and we follow.</p>
-          </div>
-          <div class="text-digitalstory pink-line">
-            <h4>- Idea</h4>
-            <span class="strong"></span>
-            <p>Our credibility lies in divergent thinking and conceptualizing unique ideas that later bring out your project's desired outcome.</p>
-          </div>
-          <div class="text-digitalstory yellow-line">
-            <h4>- Brainstorming</h4>
-            <span class="strong"></span>
-            <p>We originally combine lateral thinking, calculated risks, and a productive approach in brainstorming a dynamic strategy for your brand's digital marketing.</p>
-          </div>
-          <div class="text-digitalstory green-line">
-            <h4>- Execution</h4>
-            <span class="strong"></span>
-            <p>To drive your business forward, we implement our thoughtfully composed marketing strategy that scales your business to new heights & growth.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+            <div class="row creative-4 hidden-lg hidden-md">
+                <div class="col-sm-6 col-xs-12">
+                    <img src="assets/images/digital/icons/brief.png" />
+                    <h4>Brief</h4>
+                    <p>We rather listen than imposing our minds on our clients. You brief us on your prerequisites and expectations, and we follow.</p>
+                </div>  
+                <div class="col-sm-6 col-xs-12">
+                    <img src="assets/images/digital/icons/idea.png" />
+                    <h4>Idea</h4>
+                    <p>Our credibility lies in divergent thinking and conceptualizing unique ideas that later bring out your project's desired outcome.</p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img src="assets/images/digital/icons/brainstorming.png" />
+                    <h4>Brainstorming</h4>
+                    <p>We originally combine lateral thinking, calculated risks, and a productive approach in brainstorming a dynamic strategy for your brand's digital marketing</p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img src="assets/images/digital/icons/executions.png" />
+                    <h4>Executions</h4>
+                    <p>To drive your business forward, we implement our thoughtfully composed marketing strategy that scales your business to new heights & growth</p>
+                </div>
+            </div>
 
-<div class="paragon-sec pb-100 pt-100">
-  <div class="container paragon-main">
-    <div class="row repeatr-paragon">
-      <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
-        <div>
-          <h4>Social Media Marketing</h4>
-          <h3>Interrelate & Engage Your Audience</h3>
-          <p class="">
-            <span>
-              Social media is the robust superpower of Techno Savvy, aspires to enrich the brand's perspective, engagement, and conversion. We disseminate your social media presence that enables your brand message to be digitally seen, heard, and acknowledged.
-            </span>
-          </p>
-
-          <p class="">
-            <a href="#" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
-          </p>
         </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
-        <img alt="alt-text" src="./assets/images/digital/social-img.png">
-      </div>
     </div>
-    <div class="row repeatr-paragon">
-      <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
-        <img alt="alt-text" src="./assets/images/digital/seo-img.png">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
-        <div>
-          <h4>Search Engine Optimization</h4>
-          <h3>Advance Your Website's Online Visibility</h3>
-          <p class="">
-            <span>
-              Bringing organic traffic to your site, we stimulate your website in biding on top of the advanced search engines, where potential customers can find you forthwith.
-            </span>
-          </p>
-          <p class="">
-            <a href="#" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="row repeatr-paragon">
-      <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 cont-paragon">
-        <div>
-          <h4>Advertising & PPC</h4>
-          <h3>Cost-Effective Solution for Increasing Traffic</h3>
-          <p class="">
-            <span>
-              Acquire potential leads, evoke past customers, and curtail additional cost with effective paid media marketing to appear in front of the right audience.
-            </span>
-          </p>
-          <p class="">
-            <a href="#" title="Read More" class="btn btn-shutter-more text-uppercase fontweight600" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 image-paragon">
-        <img src="./assets/images/digital/ad-ppc.png" alt="ad-ppc">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="digital-portfolio-sec pb-100">
-  <div class="container">
-    <h2 class="digital-title"><span>Digital Marketing</span>Portfolio</h2>
-    <div class="row-digital-portfolio">
-      <div class="digital-port-main">
-        <div class="digital-port-repeater">
-          <div class="row">
-            <div class="port-dig-img col-md-12">
-              <img alt="assets/images/digital" src="./assets/images/digital/port2.jpg">
-            </div>
-            <div class="col-md-2 port-small-img">
-              <div class="">
-                <img alt="assets/images/digital" src="./assets/images/digital/port2-logo.png">
-              </div>
-            </div>
-            <div class="col-md-8 port-digi-cont">
-              <h4>Green Field Services</h4>
-              <p>
-                Here at green field services we take pride in providing the highest quality work possible. We have a highly trained crew, with decades of combined experience. We provide all excavation, and underground utility services.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="digital-port-repeater">
-          <div class="row">
-            <div class="port-dig-img col-md-12">
-              <img alt="alt-image" src="./assets/images/digital/port1.jpg">
-            </div>
-            <div class="col-md-2 port-small-img">
-              <div class="">
-                <img alt="alt-image" src="./assets/images/digital/port1-logo.png">
-              </div>
-            </div>
-            <div class="col-md-8 port-digi-cont">
-              <h4>Valvoline Inc.</h4>
-              <p>
-                Valvoline Inc. is an American manufacturer and distributor of Valvoline-brand automotive oil, additives, and lubricants. It also owns the Valvoline Instant Oil Change and Valvoline Express Care chains of car repair centers.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="digital-port-repeater">
-          <div class="row">
-            <div class="port-dig-img col-md-12">
-              <img alt="alt-image" src="./assets/images/digital/port3.jpg">
-            </div>
-            <div class="col-md-2 port-small-img">
-              <div class="">
-                <img alt="alt-image" src="./assets/images/digital/port3-logo.png">
-              </div>
-            </div>
-            <div class="col-md-8 port-digi-cont">
-              <h4>One World Rental</h4>
-              <p>
-                At One World Rental, people are our greatest asset. With operations in over 50 countries, we are in a strong position to offer a broad range of career opportunities in our global offices.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="digital-port-repeater">
-          <div class="row">
-            <div class="port-dig-img col-md-12">
-              <img src="./assets/images/digital/port4.jpg">
-            </div>
-            <div class="col-md-2 port-small-img">
-              <div class="">
-                <img src="./assets/images/digital/port4-logo.png">
-              </div>
-            </div>
-            <div class="col-md-8 port-digi-cont">
-              <h4>Beyondant</h4>
-              <p>
-                Beyondant, LLC, is the leader in usable NFC devices, deploying wireless data transfer methods that detect and enable technology in close secured proximity to direct your customer/prospects to a desired Internet destination.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 
-<div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax parallax-tn" id="parallax-7" style="background-image: url('./assets/images/common/digital-get-in-touch.jpg');">
-  <section id="contact_us" class="scroll-section">
-    @component('front.components.contact_us')
-    @endcomponent
-    <div class="bottom-row-contact" style="display: none;">
-      <article class="container">
-        <div class="col-md-12 col-sm-12 bottom_contact" data-aos="">
-          <div class="inner_con">
+<div class="paragon-sec pb-100">
+    <div class="container paragon-main mainLTR">
+        <div class="row smm innerLTR">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 image-paragon">
+                <img src="./assets/images/digital/social-img.png">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 cont-paragon">
+                <div>
+                    <h4 class="white-color">SOCIAL MEDIA MARKETING</h4>
+                    <h3 class="white-color">Interrelate & Engage Your Audience</h3>
+                    <p class="white-color">
+                        <span>
+                        Social media is the robust superpower of Techno Savvy, aspires to enrich the brand's perspective, engagement, and conversion. We disseminate your social media presence that enables your brand message to be digitally seen, heard, and acknowledged.
+                        </span>
+                    </p>
+                    <p class="">
+                        <a class="hero-btn digital" href="javascript:void(0)" data-toggle="modal"
+                            data-target="#exampleModal">Get a Quote</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row blog-writing innerLTR">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 image-paragon">
+                <img src="./assets/images/digital/seo-img.png">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 cont-paragon">
+                <div>
+                    <h4 class="white-color">SEARCH ENGINE <span class="digital-theme">OPTIMIZATION</span></h4>
+                    <h3 class="white-color">Advance Your Website's Online Visibility</h3>
+                    <p class="white-color">
+                        <span>
+                        Bringing organic traffic to your site, we stimulate your website in biding on top of the advanced search engines, where potential customers can find you forthwith.<br>
+                        include "./getaquote.php"; include('./getaquote.php') ?>
+                        </span>
+                    </p>
+                    <p class="">
+                        <a class="hero-btn digital-light" href="javascript:void(0)" data-toggle="modal"
+                            data-target="#exampleModal">Get a Quote</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ppc innerLTR">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 image-paragon">
+                <img src="./assets/images/digital/ppc-img.png">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 cont-paragon">
+                <div>
+                    <h4 class="white-color">ADVERTISING & PPC</h4>
+                    <h3 class="white-color">Cost-Effective Solution for Increasing Traffic</h3>
+                    <p class="white-color">
+                        <span>
+                        Acquire potential leads, evoke past customers, and curtail additional cost with effective paid media marketing to appear in front of the right audience.
+                        <br>?> include('./getaquote.php') ?>
+                        </span>
+                    </p>
+                    <p class="">
+                        <a class="hero-btn digital" href="javascript:void(0)" data-toggle="modal"
+                            data-target="#exampleModal">Get a Quote</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7"
+    style="background-color: #fafafa;">
+    <section id="our_portfolio" class="scroll-section portfoilo_row">
+        <article class="container">
             <div class="row">
-              <div class="col-sm-6 info">
-                <p>
-                  <img alt="alt-image" src="./assets/images/home/locate.png">
-                  <span>309 Fellowship Road, East Gate Center, Suite 200, Mt Laurel Township, NJ 08054</span>
-                </p>
-              </div>
-              <div class="info-main col-sm-6 info">
-                <div class="info-in">
-                  <p>
-                    <a href="tel:+1 (609) 775 9538">+1 (609) 775 9538</a>
-                    <img alt="alt-image" src="./assets/images/home/ph-f.png">
-                  </p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center digital_mark_head mb40 aos-init aos-animate"
+                    data-aos="">
+                    <h2 class="text-uppercase">OUR PORTFOLIO</h2>
+                    <p class="">We are proud of what we create and deliver to our valued clients in all parts of the
+                        world.</p>
                 </div>
-                <div class="info-in">
-                  <p>
-                    <a href="mailto:info@technosavvyllc.com">info@technosavvyllc.com</a>
-                    <img alt="alt-image" src="./assets/images/home/mail.png">
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4 sec_col_inner">
+                    <a href="web-development-portfolio">
+                        <span>
+                            <div class="plus-img">
+                                <img src="./assets/images/home/plus.png" />
+                                <p>Web Development</p>
+                            </div>
+                        </span>
+                        <img src="./assets/images/home/port1.jpg">
+                    </a>
+                    <a href="digital-marketing-portfolio">
+                        <span>
+                            <div class="plus-img">
+                                <img src="./assets/images/home/plus.png" />
+                                <p>Digital Marketing</p>
+                            </div>
+                        </span>
+                        <img src="./assets/images/home/port2.jpg">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
+                    <a href="app-development-portfolio">
+                        <span>
+                            <div class="plus-img">
+                                <img src="./assets/images/home/plus.png" />
+                                <p>App Development</p>
+                            </div>
+                        </span>
+                        <img src="./assets/images/home/port3.jpg">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
+                    <a href="brand-creative-portfolio">
+                        <span>
+                            <div class="plus-img">
+                                <img src="./assets/images/home/plus.png" />
+                                <p>Brand And Creative</p>
+                            </div>
+                        </span>
+                        <img src="./assets/images/home/port4.jpg"></a>
+                    <a href="animations-portfolio">
+                        <span>
+                            <div class="plus-img">
+                                <img src="./assets/images/home/plus.png" />
+                                <p>Animations</p>
+                            </div>
+                        </span>
+                        <img src="./assets/images/home/port5.jpg">
+                    </a>
+                </div>
+
+            </div>
+        </article>
+    </section>
 </div>
+
+@component('front.components.form_section_org')
+@endcomponent
 
 @endsection

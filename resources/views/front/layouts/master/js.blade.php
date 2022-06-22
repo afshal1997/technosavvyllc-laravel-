@@ -26,9 +26,24 @@
 </div>
 
 <script>
-    jQuery(window).on('load', function() {
+    jQuery(window).on('load', function () {
         jQuery('#preloader').fadeOut();
     });
+
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 100) {
+            $(".burger").addClass("invertHeader");
+        }
+
+        if (scroll <= 100) {
+            $(".burger").removeClass("invertHeader");
+        }
+    });
+    
+jQuery('.haveSubmenu > a').click(function () {
+    jQuery('.haveSubmenu').toggleClass('active');
+});
 </script>
 
 @yield('js')

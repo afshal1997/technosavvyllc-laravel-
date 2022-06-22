@@ -1,4 +1,5 @@
-<div id="preloader"><img src="./assets/images/loader/techno-savvy-Loading.gif" alt="techno-savvy-Loading-preloader" /></div>
+<div id="preloader"><img src="./assets/images/loader/techno-savvy-Loading.gif" alt="techno-savvy-Loading-preloader" />
+</div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -110,26 +111,60 @@
                                                             Our Story<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                     </li>
-                                                    <li class="smalltext" title="Digital Marketing">
-                                                        <a href="digital-marketing" title="Digital Marketing" class="hover-menu-hide" target="_self">
-                                                            Digital Marketing
-                                                            <span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                    <li class="haveSubmenu" title="Our Services">
+                                                        <a href="javascript:void(0)" title="Our Services" class="" target="_self">
+                                                            Our Services<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
+                                                        <ul class="list-submenu">
+                                                            <li class="" title="Creative Services">
+                                                                <a href="creative-services" title="Creative Services" class="" target="_self">
+                                                                    Creative Services<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Development Solutions">
+                                                                <a href="developmentsolutions" title="Development Solutions" class="" target="_self">
+                                                                    Development Solutions<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Digital Marketing">
+                                                                <a href="digital-marketing" title="Digital Marketing" class="" target="_self">
+                                                                    Digital Marketing<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="SEO Services">
+                                                                <a href="seo-services" title="SEO Services" class="" target="_self">
+                                                                    SEO Services<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Social Media Marketing">
+                                                                <a href="social-media-marketing" title="Social Media Marketing" class="" target="_self">
+                                                                    Social Media Marketing<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Lead Generation">
+                                                                <a href="lead-generation" title="Lead Generation" class="" target="_self">
+                                                                    Lead Generation<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Video Animation">
+                                                                <a href="video-animation" title="Video Animation" class="" target="_self">
+                                                                    Video Animation<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Content Writing">
+                                                                <a href="content-writing" title="Content Writing" class="" target="_self">
+                                                                    Content Writing<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="" title="Cyber Security">
+                                                                <a href="cyber-security" title="Cyber Security" class="" target="_self">
+                                                                    Cyber Security<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </li>
-                                                    <li class="smalltext" title="Creative Services">
-                                                        <a href="creative-services" title="Creative Services" class="hover-menu-hide" target="_self">
-                                                            Creative Services <span class="un-line hidden-sm hidden-xs hidden-tab"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="smalltext" title="Development Solution">
-                                                        <a href="developmentsolutions" title="Development Solution" class="hover-menu-hide" target="_self">
-                                                            Development Solution <span class="un-line hidden-sm hidden-xs hidden-tab"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="smalltext last-sma-text" title="Enterprise Solutions">
-                                                        <a href="enterprisesolutions" title="Enterprise Solutions" class="hover-menu-hide" target="_self">
-                                                            Enterprise Solutions
-                                                            <span class="un-line hidden-sm hidden-xs hidden-tab"></span>
+                                                    <li class="" title="Enterprise Solutions"><a href="enterprise-solutions" title="Enterprise Solutions" class="" target="_self">
+                                                            Enterprise Solutions<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                     </li>
                                                     <li class="" title="Portfolio">
